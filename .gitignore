@@ -1,0 +1,23 @@
+# Secrets and local environment
+.streamlit/secrets.toml
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local caches / indexes
+.cache/
+.huggingface/
+.faiss_cache/
+data/.faiss_cache/
+faiss_index/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
